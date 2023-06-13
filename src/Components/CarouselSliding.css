@@ -1,0 +1,103 @@
+.image-map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  height: 370px;
+  width: 100%;
+  min-width: 1328px;
+  margin-bottom: 5px;
+  position: relative;
+  z-index: 0;
+}
+.imgg {
+  position: absolute;
+  height: fit-content;
+  width: 100%;
+  margin: 0 1% 0 1%;
+  /* opacity: 0; */
+  /* z-index: 3; */
+  /* transition: opacity 3s; */
+  /* transform: translateX(-600px); */
+  animation-name: fadeEffect;
+  animation-duration: 2s;
+  /* animation-iteration-count: 3; */
+  /* transition: transform 0.5s ease-in-out 3s; */
+  /* transition: transform 50000ms; */
+  /* transition-duration: 10s;
+  transition-property: all;
+  transition-delay: 10s;
+  transition-timing-function: ease; */
+}
+.imageSlidingLeft {
+  position: absolute;
+  height: fit-content;
+  width: 100%;
+  margin: 0 1% 0 1%;
+  animation-name: slidingLeft;
+  animation-duration: 2s;
+  /* transition: transform 50000ms; */
+}
+
+@keyframes fadeEffect {
+  from {
+    /* opacity: 0; */
+    transform: translateX(-100%);
+    /* transition: transform 10s; */
+  }
+  to {
+    /* opacity: 1; */
+    transform: translateX(0%);
+  }
+}
+@keyframes slidingLeft {
+  from {
+    transform: translateX(80%);
+    /* transition: all 5000ms; */
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.nxtt {
+  z-index: 1;
+  position: absolute;
+  left: 94%;
+  cursor: pointer;
+}
+.nxtt:hover {
+  border-radius: 50%;
+  background-color: #ffffff;
+  /* background-color: #00ff6e; */
+}
+.pree {
+  z-index: 1;
+  position: absolute;
+  right: 94%;
+  cursor: pointer;
+}
+.pree:hover {
+  border-radius: 50%;
+  background-color: #ffffff;
+  /* background-color: #00ff6e; */
+}
+.dotStyle {
+  font-size: 70px;
+  color: #2e8b57;
+  cursor: pointer;
+  position: relative;
+  margin: 0 5px;
+  top: 150px;
+  z-index: 1;
+}
+.dotStyle:hover {
+  color: #00ff6e;
+}
+
+.onActive {
+  color: #00ff6e;
+  font-size: 75px;
+}

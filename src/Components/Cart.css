@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  /* border: 2px solid #2e8b57; */
+  max-width: 1300px;
+  min-width: 1300px;
+  margin-top: 15px;
+}
+.h4Cart {
+  color: #2e8b57;
+  font-size: large;
+  font-weight: bold;
+  padding-left: 24px;
+}
+.cards {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* height: 500px; */
+}
+.cartButtonShowMore {
+  width: 180px;
+  height: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  margin-right: 24px;
+  color: #2e8b57;
+  border: 3px solid #2e8b57;
+  border-radius: 50px;
+  background-color: white;
+  transition: all 0.3s;
+}
+.cartButtonShowMore:hover {
+  border: 3px solid #00ff6e;
+  color: #00ff6e;
+}
+.loadMoreBtn {
+  width: 180px;
+  height: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  color: #2e8b57;
+  border: 3px solid #2e8b57;
+  border-radius: 50px;
+  background-color: white;
+  margin-left: 43%;
+  transition: all 0.3s;
+}
+
+.loadMoreBtn:hover {
+  border: 3px solid #00ff6e;
+  color: #00ff6e;
+}

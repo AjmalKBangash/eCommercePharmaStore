@@ -1,0 +1,87 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Admin {
+  max-width: 1328px;
+  min-width: 1328px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid green; */
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
+  margin: 20px 0 20px 0;
+}
+.AdminMainHeading {
+  height: 50px;
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid #00ff6e;
+  border-radius: 50px;
+  background-color: #2e8b57;
+  color: rgb(207, 207, 207);
+  font-size: 20px;
+  box-shadow: 10px 10px 10px #2e8b57;
+}
+.blockUser {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green;
+  border-radius: 10px;
+  background-color: #2e8b5683;
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
+  width: 900px;
+  padding: 15px;
+  margin: 20px 0 20px 0;
+}
+.adminUserBlock {
+  color: grey;
+  font-size: 25px;
+}
+.blockUserBtn {
+  border: 4px solid #2e8b57;
+  border-radius: 10px;
+  height: 50px;
+  width: 240px;
+  box-sizing: border-box;
+  /* padding: 15px; */
+  /* padding-right: 52px; */
+  background: #2e8b57;
+  font-size: larger;
+  color: rgb(207, 207, 207);
+  margin: 15px;
+}
+.blockUserBtn:hover {
+  color: white;
+  /* border: 4px solid #00ff6e; */
+  font-size: 20px;
+  transition: color 0.5s;
+}
+.blockUser label {
+  font-size: 25px;
+  color: #2e8b57;
+}
+.inputOfBlockUser {
+  border: 3px solid #2e8b57;
+  border-radius: 40px;
+  height: 55px;
+  width: 640px;
+  box-sizing: border-box;
+  padding: 14px;
+  padding-right: 14px;
+  font-size: larger;
+  color: #2e8b57;
+  margin: 15px;
+}
+.inputOfBlockUser:focus {
+  outline: none;
+  border: 4px solid #00ff6e;
+  transition: border 0.3s;
+  /* box-shadow: 2px 0px 10px 0px #2e8b57; */
+}

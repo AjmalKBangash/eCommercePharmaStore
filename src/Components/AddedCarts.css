@@ -1,0 +1,109 @@
+.Carts {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 30%;
+  top: 70px;
+  left: 33%;
+  background-color: #2e8b56;
+  position: absolute;
+  padding: 0%;
+  border-radius: 8px;
+  z-index: 1;
+  overflow: hidden;
+}
+.cartss {
+  top: 70px;
+  left: 33%;
+}
+.Carts ul {
+  color: rgba(255, 255, 255, 0.603);
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  width: 100%;
+  padding-left: 8px;
+  margin-bottom: 2px;
+  border-bottom: 2px solid #2fa060;
+}
+.tg {
+  margin: 30px 14%;
+  border-collapse: collapse;
+  border-color: #bbb;
+  border-spacing: 0;
+  position: relative;
+}
+.tg td {
+  background-color: #e0ffeb;
+  border-color: #bbb;
+  border-style: solid;
+  border-width: 1px;
+  color: #594f4f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg th {
+  background-color: #9de0ad;
+  border-color: #bbb;
+  border-style: solid;
+  border-width: 1px;
+  color: #493f3f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg .tg-8hkb {
+  background-color: #2e8b56;
+  border-color: #000000;
+  color: #ffffff;
+  text-align: left;
+  vertical-align: top;
+}
+.tg .tg-fvlt {
+  background-color: #2e8b56;
+  border-color: #000000;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: left;
+  vertical-align: top;
+}
+.tg .tg-vh87 {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  align-items: center;
+  background-color: #9aff99;
+  border-color: #9aff99;
+  text-align: left;
+  vertical-align: top;
+  /* border: 2px solid #04ff00; */
+  border: 2px solid rgba(0, 0, 0, 0.329);
+}
+.del-td {
+  border: none;
+  outline: none;
+  /* border: 1px solid red; */
+}
+.delCart {
+  position: absolute;
+  border: none;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  font-size: 40px;
+  font-weight: 300;
+  color: gray;
+  cursor: pointer;
+  /* left: 470px; */
+  /* bottom: 20px; */
+  /* z-index: 1; */
+}
+.delCart:hover {
+  color: rgb(255, 54, 54);
+}

@@ -1,0 +1,171 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.containerExtraInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1328px;
+  /* height: 400px; */
+  padding: 0% 30px 0% 30px;
+  margin: 30px 0 30px 0;
+}
+.imgExtraInfo {
+  display: flex;
+  flex-direction: row;
+  width: 480px;
+  height: 450px;
+}
+.imgExtraInfo2 {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 55px;
+  /* margin: 0 5px 5px 0; */
+  /* border: 1px solid green; */
+}
+.imgExtraInfo2Enter {
+  border: 1px solid green;
+  margin: 0 5px 5px 0;
+}
+.imgExtraInfo3 {
+  height: 400px;
+  width: 400px;
+  /* border: 1px solid green; */
+}
+.otherExtraInfo {
+  height: 500px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* border: 1px solid red; */
+}
+.addtocartExtraInfo {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: fit-content;
+}
+.addToCart {
+  border: none;
+  height: 50px;
+  width: 250px;
+  border-radius: 4px;
+  outline: none;
+  background-color: #2e8b57;
+  color: rgb(207, 207, 207);
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.addToCart:hover {
+  font-size: 21px;
+  color: white;
+  /* background-color: #30945b; */
+}
+.buyNow {
+  border: none;
+  height: 50px;
+  width: 250px;
+  border-radius: 4px;
+  outline: none;
+  background-color: #2e8b57;
+  color: rgb(207, 207, 207);
+  font-size: 20px;
+  font-weight: 500;
+}
+.buyNow:hover {
+  font-size: 21px;
+  color: white;
+}
+.starYellow {
+  font-size: 25px;
+  color: rgb(238, 238, 0);
+}
+/* 8888 The  star css started copied */
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.radio-input {
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.radio-label {
+  cursor: pointer;
+  font-size: 0;
+  color: rgba(0, 0, 0, 0.2);
+  transition: color 0.1s ease-in-out;
+}
+
+.radio-label:before {
+  content: "★";
+  display: inline-block;
+  font-size: 32px;
+}
+.radio-input:checked ~ .radio-label {
+  /* color: #ffc700; */
+  /* color: gold; */
+  color: rgb(238, 238, 0);
+}
+
+.radio-label:hover,
+.radio-label:hover ~ .radio-label {
+  color: goldenrod;
+}
+
+.radio-input:checked + .radio-label:hover,
+.radio-input:checked + .radio-label:hover ~ .radio-label,
+.radio-input:checked ~ .radio-label:hover,
+.radio-input:checked ~ .radio-label:hover ~ .radio-label,
+.radio-label:hover ~ .radio-input:checked ~ .radio-label {
+  color: goldenrod;
+}
+
+/* 8888 The  star css ended copied */
+
+/* .containerForStarsReview {
+  display: flex;
+  flex-direction: row;
+}
+.containerForStarsReview label {
+  font-size: 100px;
+}
+.containerForStarsReview label:fter {
+  content: 
+} */
+/* .radioBtn {
+  height: 20px;
+  width: 20px;
+} */
+/* .starEmpty {
+  font-size: 40px;
+  color: rgb(238, 238, 0);
+}
+.starEmpty:hover {
+  cursor: pointer;
+  color: yellow;
+  background-color: yellow;
+} */
+.ratingFillup0 {
+  border: 1px solid black;
+  border-radius: 50px;
+  /* position: relative; */
+  width: 202px;
+  height: 22px;
+  overflow: hidden;
+  /* background-color: rgb(238, 238, 0) */
+}
+.ratingFillup {
+  /* border-radius: 50px; */
+  position: relative;
+  width: 150px;
+  height: 20px;
+  background-color: rgb(238, 238, 0);
+}

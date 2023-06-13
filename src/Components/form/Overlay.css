@@ -1,0 +1,175 @@
+.overlay__background {
+  background-color: rgba(0, 0, 0, 0.637);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  z-index: 9;
+  /* scroll-padding-top: 100px; */
+}
+.overlay__container {
+  border: 3px solid #2e8b57;
+  border-radius: 12px;
+  background-color: rgb(222, 255, 255);
+  /* position: fixed; */
+  position: sticky;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 20px auto 0 auto;
+  padding: 10px;
+  z-index: 10;
+  width: 40%;
+  /* height: 520px; */
+  height: fit-content;
+  /* transition: height 0.5s; */
+  /* box-shadow: 2px 0px 50px 0px #2e8b57; */
+}
+.h6OverForm {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: 500;
+  color: #000000;
+  padding: 10px 0 0 15px;
+  margin: 0%;
+}
+.overlayHeaderForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+.signLogBtn {
+  background-color: rgba(128, 128, 128, 0.24);
+  margin: 0px 10px 0px 0;
+  border: none;
+  height: 50px;
+  width: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.63);
+}
+.signLogBtn:hover {
+  font-size: 22px;
+}
+.signLogBtn2 {
+  background: transparent;
+  border-top: 2px solid black;
+}
+.overlay__close {
+  position: absolute;
+  border: none;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  font-size: 40px;
+  font-weight: 300;
+  color: gray;
+  cursor: pointer;
+  left: 470px;
+  bottom: 70px;
+  z-index: 1;
+}
+.overlay__close:hover {
+  color: rgb(255, 54, 54);
+}
+
+.overlay__controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+.inputFieldinOverlayForm {
+  border: 1px solid #2e8b57;
+  border-radius: 5px;
+  height: 42px;
+  width: 505px;
+  box-sizing: border-box;
+  padding: 0 6px 0 6px;
+  margin: 10px 0 0 0;
+  font-size: larger;
+  /* color: #2e8b57; */
+  color: #000000e3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.inputFieldinOverlayForm:focus {
+  outline: none;
+  border: 1px solid #00ff6a;
+  transition: border 0.3s;
+  /* box-shadow: 2px 0px 10px 0px #2e8b57; */
+}
+.pForForm {
+  color: red;
+  font-size: 13px;
+}
+.loginSignBtn {
+  border: none;
+  background-color: green;
+  margin: 8px 10px 10px 0;
+  border-radius: 5px;
+  height: 40px;
+  width: 505px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.loginSignBtn:hover {
+  font-size: 22px;
+}
+/* .signupBtn {
+  border: none;
+  background-color: green;
+  margin: 8px 10px 10px 10px;
+  border-radius: 5px;
+  height: 50px;
+  width: 505px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+} */
+.login {
+  display: none;
+}
+.signIn {
+  display: none;
+}
+.facebook {
+  border: none;
+  background-color: #3b5998;
+  margin: 8px 10px 10px 0;
+  border-radius: 5px;
+  height: 40px;
+  width: 242px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.facebook:hover {
+  /* color: #00ff6e; */
+  font-size: 24px;
+}
+.github {
+  border: 1px solid black;
+  background-color: rgba(61, 60, 60, 0.082);
+  margin: 8px 10px 10px 10px;
+  border-radius: 5px;
+  height: 40px;
+  width: 242px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.github:hover {
+  /* color: #00ff6e; */
+  font-size: 24px;
+}

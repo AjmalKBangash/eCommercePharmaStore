@@ -1,0 +1,251 @@
+.containerForSearchBox {
+  max-width: 1328px;
+  min-width: 1328px;
+  height: 100px;
+  position: relative;
+  /* position: absolute; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid green;
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
+  margin: 0px 0 0px 0;
+  background-color: #2e8b5663;
+  z-index: 1;
+}
+/* @font-face {
+  font-family: abdo;
+  src: url("./Fonts/abdo-salem-black/Abdo\ Salem\ Black/Abdo Salem Black.ttf");
+} */
+/* .arabicFont {
+  font-family: abdo;
+  font-size: 28px;
+  color: #2e8b57;
+  margin-right: 910px;
+  margin-top: 12px;
+  position: absolute;
+  height: 64px;
+  width: 64px;
+} */
+.searchFirstDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pharmacyIcon {
+  margin-right: 740px;
+  position: absolute;
+  height: 54px;
+  width: 54px;
+  cursor: pointer;
+}
+
+.categories {
+  width: 180px;
+  margin-right: 1120px;
+  position: absolute;
+  cursor: pointer;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.479);
+  border-radius: 50px;
+  padding: 0 15px 0 10px;
+  /* border: 2px solid #2e8b57; */
+}
+.categories:hover {
+  /* border: 2px solid #00ff6e; */
+  /* transition: border 0.3s; */
+  background-color: rgba(255, 255, 255, 0.712);
+}
+.categories h6 {
+  font-weight: 300;
+  font-size: 26px;
+  color: #2e8b57;
+  padding-top: 4px;
+}
+.categories span {
+  cursor: pointer;
+  /* border: 1px solid red; */
+  color: #2e8b57;
+  font-weight: 300;
+  font-size: 30px;
+}
+.categoryUl {
+  /* border: 3px solid #31c571; */
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 25%;
+  top: 75px;
+  left: 12px;
+  background-color: #2e8b56;
+  background-color: #2e8b56ec;
+  position: absolute;
+  padding: 0%;
+  border-radius: 8px;
+  z-index: 1;
+  /* overflow: hidden; */
+}
+.categoryUl li {
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  width: 100%;
+  padding-left: 8px;
+  padding-top: 4px;
+  margin-bottom: 2px;
+  border-bottom: 2px solid #2fa060;
+  color: rgb(207, 207, 207);
+  cursor: pointer;
+}
+.categoryUl li:hover {
+  color: white;
+  background-color: #31c571;
+}
+.categoryUl li span {
+  position: absolute;
+  height: 33px;
+  padding: 0 0px 0 300px;
+  opacity: 0;
+  z-index: 0;
+}
+.categoryUl li span:hover {
+  opacity: 1;
+}
+.categoryLiInsideLi {
+  background-color: none;
+  color: black;
+  position: absolute;
+  /* margin-left: 300px; */
+}
+
+.cartIcon {
+  margin-left: 980px;
+  position: absolute;
+  height: 54px;
+  width: 54px;
+  cursor: pointer;
+}
+.numofAddedCarts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  position: absolute;
+  bottom: 48px;
+  margin-left: 994px;
+  height: 18px;
+  width: 18px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.searchBox {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-left: 130px;
+  /* margin: 20px; */
+  /* z-index: 0; */
+  /* border: 5px solid red; */
+}
+.searchInputField {
+  position: absolute;
+  border: 4px solid #2e8b57;
+  border-radius: 40px;
+  height: 65px;
+  width: 640px;
+  z-index: 0;
+  box-sizing: border-box;
+  padding: 15px;
+  padding-right: 52px;
+  font-size: larger;
+  color: #2e8b57;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(255, 255, 255, 0.479);
+}
+.searchInputField:focus {
+  outline: none;
+  border: 4px solid #00ff6e;
+  transition: border 0.3s;
+  /* box-shadow: 2px 0px 10px 0px #2e8b57; */
+}
+.searchIcon {
+  position: relative;
+  /* height: 8px; */
+  left: 290px;
+  z-index: 1;
+  cursor: pointer;
+  padding: 0 8px 0 8px;
+  box-sizing: content-box;
+}
+.filteringInSearchBox {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 30%;
+  top: 84px;
+  background-color: #2e8b56;
+  background-color: #2e8b56ec;
+  position: absolute;
+  padding: 0%;
+  border-radius: 8px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.filteringInSearchBoxLi {
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  width: 100%;
+  padding-left: 8px;
+  margin-bottom: 2px;
+  border-bottom: 2px solid #2fa060;
+}
+.grtSignInFilter {
+  display: flex;
+  color: rgb(207, 207, 207);
+  z-index: 1;
+  /* display: none; */
+}
+/* .grtSignInFilter:hover {
+  color: white;
+} */
+.grtSignInFilter2 {
+  display: none;
+}
+.grtSignInFilter:hover {
+  color: white;
+  cursor: pointer;
+  background-color: #31c571;
+  width: 100%;
+}
+.grtSignInFilterLink {
+  color: rgb(207, 207, 207);
+  text-decoration: none;
+}
+.grtSignInFilterLink:hover {
+  color: white;
+}
+.greaterThanInFiltering {
+  /* font-size: large; */
+  position: absolute;
+  height: 30px;
+  padding: 0 25px 0 355px;
+  opacity: 0;
+  z-index: 0;
+
+  /* border: 2px solid #000000; */
+}
+.greaterThanInFiltering:hover {
+  opacity: 1;
+}

@@ -1,0 +1,57 @@
+@font-face {
+  font-family: abdo;
+  src: url("./Fonts/abdo-salem-black/Abdo\ Salem\ Black/Abdo Salem Black.ttf");
+}
+.arabicFont {
+  font-family: abdo;
+  font-size: 28px;
+  color: white;
+  /* border-bottom: white;  */
+  transition: all 2s;
+}
+.arabicFont:hover {
+  text-decoration: underline;
+}
+.navv {
+  background-color: #2e8b57;
+  height: 45px;
+  width: 100%;
+  min-width: 1328px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  max-width: 1328px;
+  /* color: rgb(207, 207, 207); */
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 10px 0 10px;
+  margin: 3px 0 5px 0;
+}
+.navigation li {
+  list-style-type: none;
+  padding: 0 50px 0 0;
+  color: rgb(207, 207, 207);
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+.navigation li:hover {
+  cursor: pointer;
+  color: white;
+  transition: color 0.5s;
+}
+/* .navigation Link {   THIS IS NOT WORKING I DONT KNOW WHY AND WHAT IS WRONG HERE
+  border: none;
+  border-bottom: none;
+  text-decoration: none;
+  color: white;
+} */
+.linkai {
+  text-decoration: none;
+}
+/* NavLink {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0 50px 0 0;
+} */

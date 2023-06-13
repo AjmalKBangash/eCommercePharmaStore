@@ -1,0 +1,63 @@
+h4 {
+  color: #2e8b56c2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  /* width: 90%; */
+  max-width: 1328px;
+  min-width: 1328px;
+  /* margin: 0 5% 0 5%; */
+}
+.linksEtc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 5% 0 5%;
+}
+.inLinks1 {
+  /* height: 100%; */
+  width: 22%;
+  /* margin-right: 10px; */
+}
+.inLinks2 {
+  /* height: 100%; */
+  width: 22%;
+  /* margin-right: 10px; */
+}
+.inLinks3 {
+  /* height: 100%; */
+  width: 45%;
+  /* margin-right: 10px; */
+}
+/* .privacySocialEtc {
+      display: flex;
+  flex-direction: row;
+  height: 300px;
+  /* width: 100%; 
+} */
+.inPrivacy {
+  /* border: 2px solid green; */
+  /* height: 100%; */
+  width: 24%;
+  /* margin: 0 10px 0 0; */
+}
+.copyRight {
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.486);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 25px;
+  /* width: 100%; */
+  max-width: 1328px;
+  min-width: 1328px;
+}
+.footerParagraphs {
+  color: rgb(94, 94, 94);
+  font-size: 15px;
+}
