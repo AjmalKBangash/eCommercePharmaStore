@@ -674,7 +674,17 @@
       "email": "khilafah@gmail.com"
     }
   ],
-  "AddedCarts": [],
+  "AddedCarts": [
+    {
+      "id": "24",
+      "name": "pills",
+      "pic": "require('./src/Components/CarouselImages/PillsImages/pill06.png')",
+      "description": "Lalo roghlo za patal londe pategm aw za gadeegam jar shamma bachpana",
+      "price": 230,
+      "discount": 20,
+      "category": "wholeSale"
+    }
+  ],
   "Admin": [
     {
       "admin01": 1,

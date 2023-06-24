@@ -41,17 +41,17 @@ function AddedCarts() {
   // forceUpdate();
   //   }, []);
   useEffect(() => {
-    if (stateForRendering == true) {
-      axios
-        .get("http://localhost:3031/AddedCarts")
-        .then((response) => {
-          dispatch(dataStateForCartAction([...response.data]));
-        })
-        .catch((error) => {
-          console.log(error);
-        });
-      setstateForRendering(false);
-    }
+    // if (stateForRendering == true) {
+    axios
+      .get("http://localhost:3031/AddedCarts")
+      .then((response) => {
+        dispatch(dataStateForCartAction([...response.data]));
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+    setstateForRendering(false);
+    // }
   }, [stateForRendering]);
   return (
     <>
